@@ -1,22 +1,3 @@
 plugins {
-    id 'com.android.application'
-}
-
-android {
-    namespace 'com.localsms'
-    compileSdk 34
-
-    defaultConfig {
-        applicationId 'com.localsms'
-        minSdk 23
-        targetSdk 34
-        versionCode 1
-        versionName '1.0'
-    }
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
+    id 'com.android.application' version '8.5.2' apply false
 }
